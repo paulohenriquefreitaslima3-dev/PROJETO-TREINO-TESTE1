@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.fundo-body{
+   background-color:rgb(111, 125, 148);
+}
+   
+    h1, h2, h3{
+        color:rgb(0, 22, 87);
+
+    }
+    p{
+        color:rgb(44, 50, 70);
+    }
+    .bar-nav{
+        background-color:rgb(0, 22, 87);
+        width:98%;
+        height:70px;
+        padding:0 1rem;
+    }
+    .logo{
+        width: 45px;
+        margin-top: 13px;
+    }
+    .botoes-nav{
+        position:absolute;
+        right:1px;
+        top:2px;
+        
+        line-height:70px;
+        display:inline-block;
+    }
+    .botoes-nav li{
+        display:inline-block;
+        text-transform:uppercase;
+        margin-left: 40px;
+        margin-right:10px;
+        margin-top: -20px;
+    }
+    .botoes-nav a{
+        text-decoration:none;
+        color:rgb(193, 193, 193);
+        font-size: 15px;
+    }
+    .botoes-nav a:hover{
+        color:rgb(46, 0, 185);
+    }
+ .entrar{
+    background-color:rgb(0, 105, 232);
+    padding: 7px 12px;
+    border-radius: 8px;
+ }
+ .banner{
+    background-image: url("fundo.jpg");
+    height:400px;
+ 
+ }
+ .banner h1, p{
+    text-align:center;
+    color:rgb(222, 223, 229);
+    text-shadow: 2px 2px 4px rgb(0, 4, 94);
+    font-size: 30px;
+ }
+ .banner h1{
+    font-size: 60px;
+ }
+ .console{
+    padding: 2rem 0;
+ }
+ .console ul{
+    display:flex;
+    width:60%;
+    margin:0 auto;
+ }
+ .console li{
+    flex: 1 1 200px ;
+    list-style:none;
+    text-align:center;
+    padding:20px;
+ }
+ .logo-console{
+    width: 75px;
+    margin-bottom: 20px;
+ }
+ .console p{
+    font-size: 14px;
+    margin-top: 10px;
+    color:rgb(55, 55, 55);
+    text-shadow: none;
+ }
+ .pesquisa-epoca{
+  
+ }
+ .epocas{
+    display:flex;
+    color:rgb(222, 223, 229);
+    font-size: 30px;
+    padding: 1rem 0;
+    justify-content:space-between;
+    padding: 0 2rem;
+    flex:1;
+
+ }
+ .logo-epoca{
+    width: 220px;
+    margin-bottom: 20px;
+    margin-top: 20px;   
+  
+ 
+ }
+ .epocas p{
+    color:black;
+    text-shadow: none;
+ }
+ .a90-00{
+   background-color:#f4c513
+ }
+ .a2000-10{
+    background-color:#009688
+ }
+ .a10-20{
+    background-color:#127f11
+ }
+ .recentes{
+    background-color:#e8e7ea;
+ }
+ .a90-00, .a2000-10, .a10-20, .recentes{
+    flex: 1 1 200px ;
+    list-style:none;
+    text-align:center;
+    padding:20px;
+    margin: 0 10px;
+    border-radius: 8px;
+ }
+ .login{
+    width: 50%;
+    height: 1200px;
+    margin: 0 auto;
+    margin-top:3%;
+    padding: 2rem;
+    background-color:rgb(202, 202, 244);
+    border-radius: 12px;
+    border:10px solid rgb(165, 188, 214);
+ } 
+ .login-direto{
+      width:98%;
+      height:300px;
+ }
+ .escritas{
+
+   font-size:50px;
+ }
+ .es{
+   text-align:left
+
+ }
+
+ input{
+   border:none;
+width:90%;
+height:30px;
+font-size:35px;
+padding:0.4rem 0;
+outline:none;
+ background-color:white;
+ }
+
+ input [password],
+ input [email]
+ input [text]{
+   text-align:center;
+   width:200px;
+
+
+   background-color:rgb(224, 239, 253);
+ }
+ .login h3{
+   font-size:55px;
+   color:rgb(17, 20, 101);
+   text-align:center;
+   padding: 2rem 0;
+ }
+ .login p{
+   color:black;
+   text-shadow:none;
+   padding: 2rem 0;
+ }
+ .logo-login{
+   padding-left:10px;
+
+
+ }
+ .login-direto{
+   flex:1;
+   justify-content:space-around;
+   margin-bottom:6%;
+  
+ }
+ .google,
+ .microsoft,
+ .apple{
+   display:inline-flex;
+   margin:1rem 0;
+   padding: 1rem 0;
+   background-color:white;
+   width:100%;
+   height:48px;
+   text-align:center;
+   font-size:25px;
+   border: 6px solid rgb(228, 228, 228);
+   border-radius:15px;
+
+ }
+
+
+ .entrar-logo{
+   width:100%
+ }
+ .img-email{
+   width:6%;
+ }
+.email-type,
+.pw-type{
+   background-color:white;
+   padding:10px;
+   border: 6px solid rgb(228, 228, 228);
+   border-radius:15px;
+}
+#img-email-s2{
+   width:5%;
+   padding-left:1%;
+}
+.button-enter{
+ margin-left:25%;
+ width:50%;
+ padding-bottom:7%;
+ border:8px solid rgb(150, 216, 255);
+ border-radius:20px;
+
+}
+.nome{
+   background-color:white;
+   padding:4px;
+   border:6px solid rgb(228,228,228);
+   border-radius:15px;
+   margin:1rem 0
+}
+.mudar-login h3 a{
+  text-decoration:none;
+  border-bottom:none; 
+   padding:0;
+
+   display:block;
+   
+}
+.mudar-login a{
+   text-decoration:none;
+   border:none;
+   color:rgb(87, 87, 253)
+}
+.caixa-pesquisar{
+   height:10px;
+   padding-bottom:10px;
+   font-size:15px;
+   background-color:rgb(0, 22, 87);
+   color:white;
+   margin-left:40%;   
+}
+input::placeholder{
+   color:rgb(193, 193, 193);
+}
+.resultado h3, p{
+text-align:center;
+text-decoration:none;
+text-shadow:none;
+color:rgb(194, 194, 194);
+font-size:300%;
+}
+
+.resultado{
+   margin:20%;
+}
+.resultado p{
+   font-size:900%;
+}
